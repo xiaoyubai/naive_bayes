@@ -55,8 +55,7 @@ class NaiveBayes(object):
         - X: List of list of tokens.
         OUTPUT: A list of counters. The keys of the counter
         will correspond to the possible labels, and the values
-        will be the likelihood. (This is so we can use
-        most_common method in predict).
+        will be the likelihood. 
         '''
 
         posteriors = []
